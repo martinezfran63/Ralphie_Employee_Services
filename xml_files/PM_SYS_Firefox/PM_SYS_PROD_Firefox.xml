@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Change The Parallel attribute for parallel Execution-->
+<suite name="PM_SYS in Prod using Firefox" parallel="none">
+
+       <test name="PM_SYS in Prod using Firefox">
+             <parameter name="browser" value="firefox" />
+             <parameter name="environment" value="Production" />
+              //Recruiting Portal URL's:
+              <parameter name="portal_ucb1" value="https://portal.prod.cu.edu/psp/epprod/UCB1/ENTP/?cmd=login"/>
+              <parameter name="portal_ucd1" value="https://portal.prod.cu.edu/psp/epprod/UCD1/ENTP/?cmd=login"/>
+              <parameter name="portal_uccs1" value="https://portal.prod.cu.edu/psp/epprod/UCCS1/ENTP/?cmd=login"/>
+			 //Main Portal URL's
+			  <parameter name="portal_ucb2" value="https://portal.prod.cu.edu/psp/epprod/UCB2/ENTP/?cmd=login"/>
+			  <parameter name="portal_ucd2" value="https://portal.prod.cu.edu/psp/epprod/UCD2/ENTP/?cmd=login"/>
+			  <parameter name="portal_uccs2" value="https://portal.prod.cu.edu/psp/epprod/UCCS2/ENTP/?cmd=login"/>
+			 //SYS Portal URL:
+			  <parameter name="portal_sys" value="https://portal.prod.cu.edu/psp/epprod/EMPLOYEE/ENTP/?cmd=login"/>
+			 //Recruiting Portal User IDs and Passwords:
+			  <parameter name= "ruid_1" value="Z9VQASYS01"/>
+              <parameter name="rpwd_1" value="H8/28^q5"/>
+			  <parameter name= "ruid_2" value="Z9VQASYS01"/>
+              <parameter name="rpwd_2" value="H8/28^q5"/>
+			  <parameter name= "ruid_3" value="Z9VQASYS01"/>
+              <parameter name="rpwd_3" value="H8/28^q5"/>
+			  <parameter name= "ruid_4" value="Z9VQASYS01"/>
+              <parameter name="rpwd_4" value="H8/28^q5"/>
+              <parameter name= "ruid_5" value="PROS000035"/>
+              <parameter name="rpwd_5" value="Test1234"/>
+			  <parameter name= "ruid_6" value="Z9VQASYS01"/>
+              <parameter name="rpwd_6" value="H8/28^q5"/>
+			  <parameter name= "ruid_7" value="PROS000035"/>
+              <parameter name="rpwd_7" value="Test1234"/>
+              <parameter name= "ruid_8" value="PROS000035"/>
+              <parameter name="rpwd_8" value="Test1234"/>
+              <parameter name= "ruid_9" value="Z9VQASYS01"/>
+              <parameter name="rpwd_9" value="H8/28^q5"/>
+			//Main Portal User IDs and Passwords:
+			  <parameter name= "muid_1" value="Z9VQASYS01"/>
+              <parameter name="mpwd_1" value="H8/28^q5"/>
+			  <parameter name= "muid_2" value="Z9VQASYS01"/>
+              <parameter name="mpwd_2" value="H8/28^q5"/>
+			  <parameter name= "muid_3" value="Z9VQASYS01"/>
+              <parameter name="mpwd_3" value="H8/28^q5"/>
+              <parameter name= "muid_4" value="Z9VQASYS01"/>
+              <parameter name="mpwd_4" value="H8/28^q5"/>
+			  <parameter name= "muid_5" value="Z9VQASYS01"/>
+              <parameter name="mpwd_5" value="H8/28^q5"/>
+			  <parameter name= "muid_6" value="Z9VQASYS01"/>
+              <parameter name="mpwd_6" value="H8/28^q5"/>
+              <parameter name= "muid_7" value="Z9VQASYS01"/>
+              <parameter name="mpwd_7" value="H8/28^q5"/>
+			  <parameter name= "muid_8" value="Z9VQASYS01"/>
+              <parameter name="mpwd_8" value="H8/28^q5"/>
+			  <parameter name= "muid_9" value="Z9VQASYS01"/>
+              <parameter name="mpwd_9" value="H8/28^q5"/>
+			  <parameter name= "muid_10" value="Z9VQASYS01"/>
+              <parameter name="mpwd_10" value="H8/28^q5"/>
+              <parameter name= "muid_11" value="Z9VQASYS01"/>
+              <parameter name="mpwd_11" value="H8/28^q5"/>
+			  <parameter name= "muid_12" value="Z9VQASYS01"/>
+              <parameter name="mpwd_12" value="H8/28^q5"/>
+			  <parameter name= "muid_13" value="Z9VQASYS01"/>
+              <parameter name="mpwd_13" value="H8/28^q5"/>
+              <parameter name= "muid_14" value="Z9VQASYS01"/>
+              <parameter name="mpwd_14" value="H8/28^q5"/>
+			  <parameter name= "muid_15" value="Z9VQASYS01"/>
+              <parameter name="mpwd_15" value="H8/28^q5"/>
+			  <parameter name= "muid_16" value="Z9VQASYS01"/>
+              <parameter name="mpwd_16" value="H8/28^q5"/>
+              <parameter name= "muid_17" value="Z9VQASYS01"/>
+              <parameter name="mpwd_17" value="H8/28^q5"/>
+			  <parameter name= "muid_18" value="Z9VQASYS01"/>
+              <parameter name="mpwd_18" value="H8/28^q5"/>
+			  <parameter name= "muid_19" value="Z9VQASYS01"/>
+              <parameter name="mpwd_19" value="H8/28^q5"/>
+		      <parameter name= "muid_20" value="Z9VQASYS01"/>
+              <parameter name="mpwd_20" value="H8/28^q5"/>
+			  <parameter name= "muid_21" value="FRAN000783"/>
+              <parameter name="mpwd_21" value="FRAN000783"/>
+			  <parameter name= "muid_22" value="FRAN000783"/>
+              <parameter name="mpwd_22" value="FRAN000783"/>	
+              <parameter name= "muid_23" value="FRAN000783"/>
+              <parameter name="mpwd_23" value="FRAN000783"/>
+			  <parameter name= "muid_24" value="FRAN000783"/>
+              <parameter name="mpwd_24" value="FRAN000783"/>
+              <parameter name= "muid_25" value="FRAN000783"/>
+              <parameter name="mpwd_25" value="FRAN000783"/>
+			  <parameter name= "muid_26" value="FRAN000783"/>
+              <parameter name="mpwd_26" value="FRAN000783"/>	
+              <parameter name= "muid_27" value="FRAN000783"/>
+              <parameter name="mpwd_27" value="FRAN000783"/>
+			 
+			 //System Portal User IDs and Passwords:
+			  <parameter name="suid_1" value="Z9VQASYS01"/>
+			  <parameter name="spwd_1" value="H8/28^q5"/>
+
+             //SYS Portal Misc Variables
+              <parameter name="sys_window" value="Robert Hasenhundl"/>
+              
+              
+              <packages>
+                     <package name="Suites.PM_SYS_Test_Suite.SYS_Portal" />
+              </packages>
+       </test>
+</suite>
